@@ -1,0 +1,49 @@
+###############################################################################
+# LARAVEL
+###############################################################################
+/vendor/
+/storage/*
+!/storage/app
+!/storage/framework
+!/storage/logs
+.env
+.env.*
+/public/storage
+.phpunit.result.cache
+
+###############################################################################
+# REACT NATIVE / EXPO  (folder: bookingAppExpo)
+###############################################################################
+# Node dependencies
+/node_modules/
+/bookingAppExpo/node_modules/
+
+# Expo cache & build
+/.expo/
+/.expo/
+/.expo-shared/
+/bookingAppExpo/.expo/
+/bookingAppExpo/.expo-shared/
+/bookingAppExpo/android/
+/bookingAppExpo/ios/
+/bookingAppExpo/dist/
+/bookingAppExpo/web-build/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+###############################################################################
+# UMUM
+###############################################################################
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.phpactor.json
+Homestead.*
+/.fleet
+/.nova
+/.zed
+/auth.json
