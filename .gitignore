@@ -6,8 +6,6 @@
 !/storage/app
 !/storage/framework
 !/storage/logs
-.env
-.env.*
 /public/storage
 .phpunit.result.cache
 
@@ -40,10 +38,10 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/
 .phpactor.json
 Homestead.*
 /.fleet
 /.nova
 /.zed
 /auth.json
+config.bat
